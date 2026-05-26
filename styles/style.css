@@ -133,17 +133,17 @@
     padding: 20px 20px 20px 0px;
   }
   
-  .decorated-zone::before { 
+  .decorated-zone::before {
     top: 20px;
     right: 20px;
   }
 
-  .decorated-zone::after { 
+  .decorated-zone::after {
     bottom: 20px; 
-    left: 20px; 
+    left: 20px;
   }
 
-  .header__rec { 
+  .header__rec {
     top: 20px;
     right: 29px;
   }
@@ -311,7 +311,7 @@
 .footer {
   position: relative;
   display: grid;
-  place-items: center; 
+  place-items: center;
   min-block-size: 668px;
   block-size: 100vh;
   padding: 10px;
