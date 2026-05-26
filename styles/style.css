@@ -1,6 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .header {
+  margin-block-end: 40px;
   position: relative;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
@@ -131,6 +132,7 @@
 @media (min-width: 768px) {
   .header {
     padding: 20px 20px 20px 0px;
+    margin-block-end: 60px;
   }
   
   .decorated-zone::before {
@@ -167,7 +169,8 @@
 }
 
 .content {
-  padding: 40px 10px; /* Отступы для мобилок */
+  margin-block-end: 40px;
+  padding: 0px 10px; /* Отступы для мобилок */
   display: flex;
   flex-direction: column;
   gap: 50px; /* Отступ между секциями */
@@ -219,7 +222,9 @@
 
 @media (min-width: 768px) {
   .content {
-    padding: 60px 20px;
+    padding: 0px 20px;
+    margin-block-end: 60px;
+    gap: 80px
   }
   
   .content-section-why {
