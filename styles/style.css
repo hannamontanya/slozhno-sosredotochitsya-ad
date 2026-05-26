@@ -133,9 +133,20 @@
     padding: 20px 20px 20px 0px;
   }
   
-  .decorated-zone::before { top: 20px; right: 20px; }
-  .decorated-zone::after { bottom: 20px; left: 20px; }
-  .header__rec { top: 20px; right: 29px; }
+  .decorated-zone::before { 
+    top: 20px;
+    right: 20px;
+  }
+
+  .decorated-zone::after { 
+    bottom: 20px; 
+    left: 20px; 
+  }
+
+  .header__rec { 
+    top: 20px;
+    right: 29px;
+  }
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
