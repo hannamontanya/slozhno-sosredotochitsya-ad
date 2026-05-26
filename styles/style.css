@@ -8,6 +8,7 @@
   align-items: center;
   padding: 10px;
   min-block-size: 668px;
+  inline-size: 100%;
   block-size: 100vh;
   background-image: var(--bg-image);
   background-repeat: no-repeat;
@@ -62,7 +63,7 @@
 
 /* Навигация */
 .header__theme-menu {
-  margin-block-start: clamp(2.5rem, 1.328rem + 5.096vw, 8.75rem);
+  margin-block-start: clamp(3.8rem, 2.328rem + 5.096vw, 8.75rem);
   justify-self: end;
   align-self: start;
 }
@@ -183,6 +184,10 @@
   gap: 20px;
 }
 
+.content-gallery-section {
+  gap: 10px;
+}
+
 .content-section__title {
   font-size: 18px;
   font-weight: bold;
@@ -193,7 +198,10 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 30px;
+}
+
+.content-article:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .content-article__title {
