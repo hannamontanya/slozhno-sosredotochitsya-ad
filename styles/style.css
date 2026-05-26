@@ -294,6 +294,10 @@
     gap: 20px;
   }
 
+  .content-gallery-section {
+  gap: 20px;
+  }
+
   /* Позиционирование картинок как на скрине */
   .gallery__image:nth-child(1) {
     grid-column: 1 / 3;
